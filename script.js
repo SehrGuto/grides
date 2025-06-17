@@ -36,6 +36,59 @@ const checklistData = {
             }
         ]
     },
+    checklist1: {
+        title: "Guía de Revisión de un anúnciante",
+        items: [
+            {
+                title: "Tiene página web?",
+                subItems: ["Revisar pagina web", "Revisar qué plataforma utiliza para el manejo del sitio web", "Revisar si tiene pixel instalado", "Revisar si se puede optimizar el pixel", "Configurar eventos (compra, agregar al carrito, clientes potenciales)", "Activar coincidencias avanzadas", "Verificación del dominio"]
+            },
+            {
+                title: "Tiene API?",
+                subItems: ["Revisar si tiene API", "Revisar si se puede optimizar la API", "Puntuación de los eventos inferior a 5 y tiene GTM"]
+            },
+            {
+                title: "Tiene Catálogo?",
+                subItems: ["Revisar si tiene catálogo", "Revisar si se puede optimizar el catálogo", "Unificar cátalogos", "Subir el match rate", "Disponibilidad de productos"]
+            },
+            {
+                title: "No tiene pagina Web:",
+                subItems: ["Tiene campañas activas?", "Realizar una prueba A/B", "Revisar si se puede realizar un caso de soporte o apelación en UBD"]
+            },
+            {
+                title: "Revisión de la página web:",
+                subItems: ["¿Qué tan importante es tu sitio web como canal de ventas?"]
+            },
+            {
+                title: "Plataforma de manejo del sitio web:",
+                subItems: ["¿Qué plataforma (Partner) utilizas para gestionar tu sitio web?", "¿Sabes cuáles son los beneficios y limitaciones de tu plataforma actual?"]
+            },
+            {
+                title: "Seguimiento y optimización:",
+                subItems: ["¿Cómo sabes si tus visitantes están completando las acciones que deseas en tu sitio web?", "¿Qué tipo de datos te gustaría recopilar sobre tus visitantes y por qué?"]
+            },
+            {
+                title: "Pixel Set Up",
+                subItems: ["Estamos de acuerdo en que el sitio web es un canal de ventas y recopilación de datos acerca de tus clientes?"]
+            },
+            {
+                title: "Integración con API",
+                subItems: ["¿Qué beneficios crees que podrías obtener al integrar APIs con tu sitio web?"]
+            },
+            {
+                title: "Catálogo de productos",
+                subItems: ["¿Cómo gestionas actualmente tu catálogo de productos?", "¿Qué características te gustaría incluir en tu catálogo de productos?"]
+            },
+            {
+                title: "Campañas y pruebas A/B",
+                subItems: ["¿Cómo mides el éxito de tus campañas y qué tipo de datos te gustaría recopilar?", "¿Qué elementos de tus campañas publicitarias crees que podrían estar afectando negativamente su rendimiento?", "¿Qué tipo de creatividades o formatos se están utilizando en la campaña y cómo se están desempeñando?"]
+            },
+            {
+                title: "Caso de soporte",
+                subItems: ["¿Qué tipo de desafíos o problemas estás enfrentando actualmente en tu negocio?"]
+            }
+        ]
+    },
     checklist2: {
         title: "Soluções de Tech",
         items: [
